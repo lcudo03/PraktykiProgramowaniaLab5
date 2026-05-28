@@ -2,8 +2,7 @@
 
 
 def natural_to_binary(number: int) -> str:
-    """Convert a natural number from the range 0-100 to binary notation.
-    """
+    """Convert a natural number from the range 0-100 to binary notation."""
     if isinstance(number, bool) or not isinstance(number, int):
         raise TypeError("Number must be a natural integer.")
 
